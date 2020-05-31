@@ -1,0 +1,43 @@
+.todo {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 2px;
+}
+.todo > * {
+   
+    padding: 0px;
+    grid-column: col-start / span 12;
+}
+
+
+
+@media (min-width: 500px) {
+  .ladoizquierdo {
+    grid-column: col-start / span 12;
+
+  }
+  .ladoderecho {
+    grid-column: col-start  / span 12;
+  }
+ 
+}
+
+@media (min-width: 800px) {
+
+  .comentario{
+    height: 440px;
+  }
+  .ladoizquierdo {
+    grid-column: col-start  / span 6;
+    margin-right: 5px;
+    
+    
+  }
+  .ladoderecho {
+    grid-column: col-start 7/ span 12;
+    padding: 10px;
+  }
+  
+}

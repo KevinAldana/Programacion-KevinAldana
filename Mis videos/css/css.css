@@ -1,0 +1,145 @@
+
+.encabezado{
+	background-color: #72c272;
+	padding: 20px 10px;
+	border: 3px solid #11150d;
+
+}
+.encabezado h1{
+	font-family: 'Balsamiq Sans', cursive;
+	color: #0e100e;
+	font-size: 38px; 
+}
+.ladoizquierdo{
+	padding: 10px;
+	float: left;  
+	background-color: #ffffff; 	
+	
+}
+
+.ladoizquierdo video{
+border: 5px solid #000000;
+width: 98%
+
+
+
+}
+.ladoizquierdo .comentario{
+	border: 2px solid #000000;
+	background-color: #dfddd6;	
+}
+.comentario1 {
+	margin-top: 10px;
+}
+.comentario2{
+	margin-top: 15px;
+}
+ h2{
+text-decoration: underline;
+}
+
+.ladoderecho{
+float: right;														
+padding: 10px;
+background-color: #ffffff; 
+
+
+;
+
+
+}
+.footer{
+clear: both; 
+display: flex;
+margin-bottom: 20px;
+
+}
+.categoria{
+float:left;
+position: relative;
+background-color: #72c272;
+padding: 10px;
+width: 25%;
+text-align: center;
+}
+.footer .categoria  ul {
+	list-style: none;
+	margin-top: 20px;
+}
+.footer .categoria ul li a{
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+
+} 
+
+.ladoderecho .video ul {
+	list-style: none;
+}
+.ladoderecho .video ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #56901c;	
+
+}
+
+
+ #Cajonvideo1 {
+ 	
+	border: 2px solid #000000;
+	background-color: #dfddd6;
+
+	
+}
+#Cajonvideo2 {
+	border: 2px solid #000000;
+	margin-top: 5px;
+	background-color: #dfddd6;
+	
+}
+#Cajonvideo3 {
+	border: 2px solid #000000;
+	margin-top: 5px;
+	background-color: #dfddd6;
+	
+}
+#Cajonvideo4 {
+	border: 2px solid #000000;
+	margin-top: 5px;
+	background-color: #dfddd6;
+
+}
+
+.video video{
+	float:left; 
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 200px;
+	
+}
+h3{
+	background-color: #ddd831;
+	opacity: 0.7;
+}
+
+ input   {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-image: url('http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-2/24/search-icon.png');
+  background-color: white;
+  background-position: 10px 10px ; 
+  background-repeat: no-repeat;
+  padding: 12px 35px 12px 40px  ;
+  transition: width 0.4s ease-in-out;
+}
+
+  input :focus {
+  width: 40%;
+}
+.busqueda{
+	float: right;
+}
